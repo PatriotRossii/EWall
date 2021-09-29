@@ -46,9 +46,16 @@
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="lineEdit"/>
+           <widget class="QLineEdit" name="tags_edit"/>
           </item>
          </layout>
+        </item>
+        <item>
+         <widget class="QPushButton" name="start_btn">
+          <property name="text">
+           <string>Start</string>
+          </property>
+         </widget>
         </item>
         <item>
          <spacer name="verticalSpacer">
@@ -109,7 +116,7 @@
                 </widget>
                </item>
                <item>
-                <widget class="QLineEdit" name="lineEdit_2">
+                <widget class="QLineEdit" name="ip_edit">
                  <property name="inputMask">
                   <string>000.000.000.000;_</string>
                  </property>
@@ -129,7 +136,7 @@
               </widget>
              </item>
              <item>
-              <widget class="QLineEdit" name="lineEdit_3">
+              <widget class="QLineEdit" name="port_edit">
                <property name="inputMask">
                 <string>9999</string>
                </property>
